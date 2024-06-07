@@ -1,0 +1,13 @@
+[package]
+name = "lending_protocol"
+version = "0.0.0"
+
+[dependencies]
+InitiaStdlib = { git = "https://github.com/initia-labs/move-natives", subdir = "initia_stdlib", rev = "main" }
+oracle_service = { git = "https://github.com/blockchain-hcj/oracle_service", rev = "main" }
+
+[addresses]
+std =  "0x1"
+lending_protocol= "0xA9F1AFB0E1CA1E759D3C156D3D276C6CC8A9859A"
+
+
